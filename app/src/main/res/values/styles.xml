@@ -1,0 +1,64 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#00BCD4</item>
+        <!--Dark primary color -->
+        <item name="colorPrimaryDark">#0097A7</item>
+        <!--Accent color -->
+        <item name="colorAccent">#E040FB</item>
+
+    </style>
+
+    <style name="CustomTeamStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">roboto-medium</item>
+    </style>
+
+    <style name="CustomScoreStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:textSize">56sp</item>
+        <item name="android:textColor">#E040FB</item>
+        <item name="android:fontFamily">roboto-light</item>
+    </style>
+
+    <style name="CustomButtonStyle">
+        <item name="android:layout_width">120sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="CustomResetButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">22dp</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:background">@drawable/button_background</item>
+
+    </style>
+
+    <style name="CustomViewStyle">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">#0097A7</item>
+    </style>
+</resources>

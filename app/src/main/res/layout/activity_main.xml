@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rana_madera">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="com.example.android.juegodelarana.JuegoDeLaRana">
+
+            <TextView
+                style="@style/CustomTeamStyle"
+                android:text="@string/Team_A" />
+
+            <TextView
+                android:id="@+id/scoreA"
+                style="@style/CustomScoreStyle"
+                android:text="@string/ScoreA" />
+
+            <Button
+                android:id="@+id/fiftyA"
+                style="@style/CustomButtonStyle"
+                android:layout_marginLeft="24dp"
+                android:onClick="addFiftyPointsForTeamA"
+                android:text="@string/Fifty_Points" />
+
+            <Button
+                android:id="@+id/twentyfiveA"
+                style="@style/CustomButtonStyle"
+                android:onClick="addTwentyFivePointsForTeamA"
+                android:text="@string/TwentyFive_Points" />
+
+            <Button
+                android:id="@+id/tenA"
+                style="@style/CustomButtonStyle"
+                android:layout_marginLeft="24dp"
+                android:onClick="addTenPointsForTeamA"
+                android:text="@string/Ten_Points" />
+
+            <Button
+                android:id="@+id/fiveA"
+                style="@style/CustomButtonStyle"
+                android:onClick="addFivePointsForTeamA"
+                android:text="@string/Five_Points" />
+        </LinearLayout>
+
+        <View
+            style="@style/CustomViewStyle"/>
+
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="com.example.android.juegodelarana.JuegoDeLaRana">
+
+            <TextView
+                style="@style/CustomTeamStyle"
+                android:text="@string/Team_B" />
+
+            <TextView
+                android:id="@+id/scoreB"
+                style="@style/CustomScoreStyle"
+                android:text="@string/ScoreB" />
+
+            <Button
+                android:id="@+id/fiftyB"
+                style="@style/CustomButtonStyle"
+                android:layout_marginLeft="24dp"
+                android:onClick="addFiftyPointsForTeamB"
+                android:text="@string/Fifty_Points" />
+
+            <Button
+                android:id="@+id/twentyfiveB"
+                style="@style/CustomButtonStyle"
+                android:onClick="addTwentyFivePointsForTeamB"
+                android:text="@string/TwentyFive_Points" />
+
+            <Button
+                android:id="@+id/tenB"
+                style="@style/CustomButtonStyle"
+                android:layout_marginLeft="24dp"
+                android:onClick="addTenPointsForTeamB"
+                android:text="@string/Ten_Points" />
+
+            <Button
+                android:id="@+id/fiveB"
+                style="@style/CustomButtonStyle"
+                android:onClick="addFivePointsForTeamB"
+                android:text="@string/Five_Points" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset"
+        style="@style/CustomResetButtonStyle"
+        android:onClick="resetScore"
+        android:text="@string/Reset" />
+
+</RelativeLayout>

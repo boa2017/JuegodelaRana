@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Juego de la Rana</string>
+    <string name="Team_A">Team A</string>
+    <string name="Team_B">Team B</string>
+    <string name="ScoreA">0</string>
+    <string name="ScoreB">0</string>
+    <string name="Fifty_Points">+50 Points</string>
+    <string name="TwentyFive_Points">+25 Points</string>
+    <string name="Ten_Points">+10 Points</string>
+    <string name="Five_Points">+5 Points</string>
+    <string name="Reset">Reset</string>
+</resources>
